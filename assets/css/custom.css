@@ -25,4 +25,12 @@
 
 .features section:last-child {
   width: 100%;
+}
+
+#thanks {
+  border: solid 2px darkgreen;
+  background: green;
+  padding: 1rem;
+  text-align: center;
+  color: white;
 }/*# sourceMappingURL=custom.css.map */
