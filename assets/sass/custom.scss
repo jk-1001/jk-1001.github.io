@@ -1,0 +1,33 @@
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.introImg {
+	float: left;
+	margin: 15px;
+	width: 450px;
+}
+
+.font-dark {
+	h2, h3, p, ul, li{
+		color: #333;
+	}
+
+	.icon.major {
+		background: #555;
+	}
+}
+
+.features {
+	section:last-child {
+		width: 100%;
+	}
+}

@@ -1,0 +1,28 @@
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.introImg {
+  float: left;
+  margin: 15px;
+  width: 450px;
+}
+
+.font-dark h2, .font-dark h3, .font-dark p, .font-dark ul, .font-dark li {
+  color: #333;
+}
+.font-dark .icon.major {
+  background: #555;
+}
+
+.features section:last-child {
+  width: 100%;
+}/*# sourceMappingURL=custom.css.map */
