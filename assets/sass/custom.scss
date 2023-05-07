@@ -1,3 +1,8 @@
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/breakpoints';
+
 .float-left {
 	float: left;
 }
@@ -14,6 +19,12 @@
 	float: left;
 	margin: 15px;
 	width: 450px;
+}
+
+@media (max-width: 575.98px) {
+	.introImg {
+		width: 100%;
+	}
 }
 
 .font-dark {
@@ -38,4 +49,19 @@
 	padding: 1rem;
 	text-align: center;
 	color: white;
+}
+
+#main {
+	ul {
+		line-height: 5;
+		font-weight: bold;
+	}
+}
+
+@media (max-width: 575.98px) {
+	#main {
+		ul {
+			line-height: 2;
+		}
+	}
 }
